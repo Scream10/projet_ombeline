@@ -6,15 +6,15 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, .nav-link {
   color: $text-color !important;
 }
 
-.navbar-title:hover {
-  color: $primary-color !important;
+.nav-link {
+  font-family: 'Poppins', sans-serif;
 }
 
-.navbar-title.active {
+.navbar-title:hover {
   color: $primary-color !important;
 }
 
