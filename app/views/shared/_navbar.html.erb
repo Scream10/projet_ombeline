@@ -1,4 +1,4 @@
-<nav class="sticky-top stroke navbar navbar-expand-lg navbar-light bg-light shadow-sm" style="background-color: #fff !important;">
+<nav id="navbar" class="sticky-top stroke navbar navbar-expand-lg navbar-light bg-light shadow-sm" style="background-color: #fff !important;">
   <a class="navbar-brand" href="#">Logo</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -6,16 +6,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link navbar-title nav-link-ltr active" href="#">Accueil</a>
+        <%= link_to "Accueil", root_path, :method => :get, class: "nav-link navbar-title nav-link-ltr active" %>
       </li>
       <li class="nav-item">
-        <a class="nav-link navbar-title nav-link-ltr" href="#">Services</a>
+        <a class="nav-link navbar-title nav-link-ltr" href="#services">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link navbar-title nav-link-ltr" href="#">À propos</a>
+        <a class="nav-link navbar-title nav-link-ltr" href="#apropos">À propos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link navbar-title nav-link-ltr" href="#">Contact</a>
+        <a class="nav-link navbar-title nav-link-ltr" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
