@@ -16,35 +16,41 @@
     </p>
   </section>
 
-  <section class="d-flex">
-    <div class="card-flip">
-      <div class="card-flip-logo text-center">
-        <%= image_tag("analyse.svg") %>
-      </div>
-      <div class="card-flip-title text-center">
-        <h5>Analyse du marché</h5>
-      </div>
-      <div class="card-flip-text text-center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-      </div>
-    </div>
-    <div class="card-flip">
-      <div class="card-flip-logo text-center">
-        <%= image_tag("mail.svg") %>
-      </div>
-      <div class="card-flip-title text-center">
-        <h5>Campagne de publicité</h5>
+  <section class="row row-cols-1 row-cols-xl-3">
+    <div class="col">
+      <div class="card-flip mx-auto">
+        <div class="card-flip-logo text-center">
+          <%= cl_image_tag("analyse_wyafu9.svg") %>
+        </div>
+        <div class="card-flip-title text-center">
+          <h5>Analyse du marché</h5>
+        </div>
+        <div class="card-flip-text text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </div>
       </div>
     </div>
-    <div class="card-flip">
-      <div class="card-flip-logo text-center">
-        <%= image_tag("progress.svg") %>
+    <div class="col">
+      <div class="card-flip mx-auto">
+        <div class="card-flip-logo text-center">
+          <%= cl_image_tag("mail_d4czc8.svg") %>
+        </div>
+        <div class="card-flip-title text-center">
+          <h5>Campagne de publicité</h5>
+        </div>
       </div>
-      <div class="card-flip-title text-center">
-        <h5>Augmenter votre CA</h5>
+    </div>
+    <div class="col">
+      <div class="card-flip mx-auto">
+        <div class="card-flip-logo text-center">
+          <%= cl_image_tag("progress_a22fjx.svg") %>
+        </div>
+        <div class="card-flip-title text-center">
+          <h5>Augmenter votre CA</h5>
+        </div>
       </div>
     </div>
   </section>
