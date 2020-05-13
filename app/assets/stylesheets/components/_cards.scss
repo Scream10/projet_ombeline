@@ -45,3 +45,26 @@
     50%{height:100px}
     100%{height:200px}
 }
+
+.card-services {
+  height: 300px;
+  width: 345px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  background: white;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.card-services-logo img {
+  max-height: 180px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+
+.card-services-title {
+  min-height: 80px;
+  width: 100%;
+  -webkit-animation: move 2s;
+}
