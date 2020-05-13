@@ -54,7 +54,7 @@ nav.stroke ul li a:hover:after, nav.stroke ul li a:active:after {
 }
 
 .jumbotron {
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url('working_2.jpg');
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url('<%= cl_image_path working_2.jpg %>');
   background-position: 10% 40%;
   background-size: cover;
   padding: 5rem 4rem;
