@@ -1,12 +1,14 @@
 <nav id="navbar" class="sticky-top stroke navbar navbar-expand-lg navbar-light bg-light shadow-sm" style="background-color: #fff !important;">
-  <a class="navbar-brand" href="#">Logo</a>
+  <a class="navbar-brand" href="#" style="width: 60px; height: 60px;">
+    <%= cl_image_tag("logo_ombe_c48chz.svg", :width=>120, :height=>120, :y=>20) %>
+  </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <%= link_to "Accueil", root_path, :method => :get, class: "nav-link navbar-title nav-link-ltr active" %>
+        <a class="nav-link navbar-title nav-link-ltr active" href="#accueil">Accueil</a>
       </li>
       <li class="nav-item">
         <a class="nav-link navbar-title nav-link-ltr" href="#services">Services</a>
